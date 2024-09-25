@@ -136,9 +136,8 @@ const Placeholder = styled.img`
   height: 250px;
   margin: 100px;
   border-radius: 15px;
- 
-
 `;
+
 const SearchInput = styled.input`
   color: black;
   font-size: 16px;
@@ -176,12 +175,13 @@ const AppComponent = () => {
   return (
     <Container>
       <Header>
-        <AppName>
-          <RecipeImage src="/react-recipe-finder/cooking.png" />
+      <AppName>
+          <RecipeImage src={`${process.env.PUBLIC_URL}/react-recipe-finder/cooking.png`} />
           Yummy Bites Blog
         </AppName>
+      
         <SearchBox>
-          <SearchIcon src="/react-recipe-finder/search-icon.svg" />
+          <SearchIcon src={`${process.env.PUBLIC_URL}/react-recipe-finder/search-icon.svg`} />
           <SearchInput
             placeholder="Search Recipe"
             value={searchQuery}
@@ -195,7 +195,7 @@ const AppComponent = () => {
             <RecipeComponent key={index} recipe={recipe.recipe} />
           ))
         ) : (
-          <Placeholder src="/react-recipe-finder/spices.jpg" />
+          <Placeholder src={`${process.env.PUBLIC_URL}/react-recipe-finder/spices.jpg`} />
         )}
       </RecipeListContainer>
     </Container>
