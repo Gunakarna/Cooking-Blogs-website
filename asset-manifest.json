@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Cooking-Blogs-website/static/css/main.594013ca.css",
-    "main.js": "/Cooking-Blogs-website/static/js/main.e3d0666b.js",
+    "main.js": "/Cooking-Blogs-website/static/js/main.bbfe779f.js",
     "index.html": "/Cooking-Blogs-website/index.html",
     "main.594013ca.css.map": "/Cooking-Blogs-website/static/css/main.594013ca.css.map",
-    "main.e3d0666b.js.map": "/Cooking-Blogs-website/static/js/main.e3d0666b.js.map"
+    "main.bbfe779f.js.map": "/Cooking-Blogs-website/static/js/main.bbfe779f.js.map"
   },
   "entrypoints": [
     "static/css/main.594013ca.css",
-    "static/js/main.e3d0666b.js"
+    "static/js/main.bbfe779f.js"
   ]
 }
